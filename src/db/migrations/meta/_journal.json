@@ -1,0 +1,41 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1789646231254,
+      "tag": "0000_typical_slapstick",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1789648923544,
+      "tag": "0001_narrow_shadow_king",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1789660353309,
+      "tag": "0002_magenta_lady_bullseye",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1789661800788,
+      "tag": "0003_powerful_meteorite",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1789664287046,
+      "tag": "0004_majestic_firestar",
+      "breakpoints": true
+    }
+  ]
+}
