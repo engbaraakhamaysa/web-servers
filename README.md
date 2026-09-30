@@ -35,22 +35,22 @@ The project implements user authentication, JWT-based authorization, refresh tok
 
 ## API
 
-| Method | Endpoint | Description |
-|---|---|---|
-| `GET` | `/api/healthz` | Health check |
-| `POST` | `/api/users` | Create a user |
-| `PUT` | `/api/users` | Update user |
-| `POST` | `/api/login` | Login |
-| `POST` | `/api/refresh` | Refresh access token |
-| `POST` | `/api/revoke` | Revoke refresh token |
-| `POST` | `/api/chirps` | Create a Chirp |
-| `GET` | `/api/chirps` | Get Chirps |
-| `GET` | `/api/chirps/:chirpId` | Get a Chirp |
-| `DELETE` | `/api/chirps/:chirpId` | Delete a Chirp |
-| `POST` | `/api/validate_chirp` | Validate Chirp content |
-| `POST` | `/api/polka/webhooks` | Handle upgrade webhook |
-| `GET` | `/admin/metrics` | View server metrics |
-| `POST` | `/admin/reset` | Reset development data |
+| Method   | Endpoint               | Description            |
+| -------- | ---------------------- | ---------------------- |
+| `GET`    | `/api/healthz`         | Health check           |
+| `POST`   | `/api/users`           | Create a user          |
+| `PUT`    | `/api/users`           | Update user            |
+| `POST`   | `/api/login`           | Login                  |
+| `POST`   | `/api/refresh`         | Refresh access token   |
+| `POST`   | `/api/revoke`          | Revoke refresh token   |
+| `POST`   | `/api/chirps`          | Create a Chirp         |
+| `GET`    | `/api/chirps`          | Get Chirps             |
+| `GET`    | `/api/chirps/:chirpId` | Get a Chirp            |
+| `DELETE` | `/api/chirps/:chirpId` | Delete a Chirp         |
+| `POST`   | `/api/validate_chirp`  | Validate Chirp content |
+| `POST`   | `/api/polka/webhooks`  | Handle upgrade webhook |
+| `GET`    | `/admin/metrics`       | View server metrics    |
+| `POST`   | `/admin/reset`         | Reset development data |
 
 ## Getting Started
 
