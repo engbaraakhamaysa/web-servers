@@ -1,28 +1,27 @@
-# Web Servers
+# 🚀 Web Servers
 
 A REST API built with **TypeScript, Express.js, and PostgreSQL**.
 
-The project implements user authentication, JWT-based authorization, refresh tokens, password hashing, database management with Drizzle ORM, and Chirp management.
+This project implements user authentication, JWT-based authorization, refresh tokens, password hashing, database management with Drizzle ORM, and Chirp management.
 
-## Features
+## ✨ Features
 
-- RESTful API with Express.js
-- User registration and login
-- Password hashing with Argon2
-- JWT authentication
-- Refresh token management
-- User profile updates
-- Create, read, and delete Chirps
-- Chirp content validation
-- API key authentication for webhooks
-- PostgreSQL database with Drizzle ORM
-- Database migrations
-- Centralized error handling
-- Request and response logging
-- API metrics
-- Health check endpoint
+- 👤 User registration and login
+- 🔐 JWT authentication and authorization
+- 🔄 Refresh token management
+- 🔑 Password hashing with Argon2
+- 👥 User profile updates
+- 🐦 Create, read, and delete Chirps
+- 🧹 Chirp content validation
+- 🔗 API key authentication for webhooks
+- 🗄️ PostgreSQL database integration
+- 🧩 Drizzle ORM and database migrations
+- ⚠️ Centralized error handling
+- 📋 Request and response logging
+- 📊 API metrics
+- ❤️ Health check endpoint
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 - **TypeScript**
 - **Node.js**
@@ -33,62 +32,62 @@ The project implements user authentication, JWT-based authorization, refresh tok
 - **Argon2**
 - **Vitest**
 
-## API
+## 🔌 API Endpoints
 
-| Method   | Endpoint               | Description            |
-| -------- | ---------------------- | ---------------------- |
-| `GET`    | `/api/healthz`         | Health check           |
-| `POST`   | `/api/users`           | Create a user          |
-| `PUT`    | `/api/users`           | Update user            |
-| `POST`   | `/api/login`           | Login                  |
-| `POST`   | `/api/refresh`         | Refresh access token   |
-| `POST`   | `/api/revoke`          | Revoke refresh token   |
-| `POST`   | `/api/chirps`          | Create a Chirp         |
-| `GET`    | `/api/chirps`          | Get Chirps             |
-| `GET`    | `/api/chirps/:chirpId` | Get a Chirp            |
-| `DELETE` | `/api/chirps/:chirpId` | Delete a Chirp         |
-| `POST`   | `/api/validate_chirp`  | Validate Chirp content |
-| `POST`   | `/api/polka/webhooks`  | Handle upgrade webhook |
-| `GET`    | `/admin/metrics`       | View server metrics    |
-| `POST`   | `/admin/reset`         | Reset development data |
+|  Method  | Endpoint               | Description               |
+| :------: | ---------------------- | ------------------------- |
+|  `GET`   | `/api/healthz`         | ❤️ Health check           |
+|  `POST`  | `/api/users`           | 👤 Create a user          |
+|  `PUT`   | `/api/users`           | ✏️ Update user            |
+|  `POST`  | `/api/login`           | 🔐 Login                  |
+|  `POST`  | `/api/refresh`         | 🔄 Refresh access token   |
+|  `POST`  | `/api/revoke`          | 🚫 Revoke refresh token   |
+|  `POST`  | `/api/chirps`          | 🐦 Create a Chirp         |
+|  `GET`   | `/api/chirps`          | 📋 Get Chirps             |
+|  `GET`   | `/api/chirps/:chirpId` | 🔎 Get a Chirp            |
+| `DELETE` | `/api/chirps/:chirpId` | 🗑️ Delete a Chirp         |
+|  `POST`  | `/api/validate_chirp`  | 🧹 Validate Chirp content |
+|  `POST`  | `/api/polka/webhooks`  | 🔗 Handle upgrade webhook |
+|  `GET`   | `/admin/metrics`       | 📊 View server metrics    |
+|  `POST`  | `/admin/reset`         | ♻️ Reset development data |
 
-## Getting Started
+## 🚀 Getting Started
 
-### Install dependencies
+### 1. 📦 Install Dependencies
 
 ```bash
 npm install
 ```
 
-### Configure environment variables
+### 2. ⚙️ Configure Environment Variables
 
 Create a `.env` file with the required database and API configuration.
 
-### Run database migrations
+### 3. 🗄️ Run Database Migrations
 
 ```bash
 npm run db:migrate
 ```
 
-### Start the server
+### 4. ▶️ Start the Server
 
 ```bash
 npm run dev
 ```
 
-### Build the project
+### 5. 🏗️ Build the Project
 
 ```bash
 npm run build
 ```
 
-### Run tests
+### 6. 🧪 Run Tests
 
 ```bash
 npm test
 ```
 
-## Project Structure
+## 📁 Project Structure
 
 ```text
 web-servers/
@@ -103,7 +102,3 @@ web-servers/
 ├── tsconfig.json
 └── README.md
 ```
-
-## Purpose
-
-This project was built as part of my backend development training, with a focus on building REST APIs, authentication, database integration, and server-side development using TypeScript.
